@@ -1,10 +1,10 @@
-import InputForm from './components/InputForm';
-import './App.css';
+import InputForm from "./components/InputForm";
+import styles from "./App.module.css";
 
 function App() {
   return (
-    <div className="App">
-      <InputForm />
+    <div className={styles.app}>
+        <InputForm />
     </div>
   );
 }
